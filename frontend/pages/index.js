@@ -273,7 +273,7 @@ export default function Home() {
       );
     }
     // Start the game
-    if (isOwner && !gameStarted) {
+    if ( !gameStarted) {
       return (
         <div>
           <input
